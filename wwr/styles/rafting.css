@@ -2,7 +2,7 @@
     --primary-color: #387497;
     --secondary-color: #ffffff;
     --accent1-color: #376C44;
-    --accent2-color: #c56a14;
+    --accent2-color: #8a4606;
     --heading-font: 'Alegreya Sans SC', sans-serif;
     --body-font: 'M PLUS Rounded 1c', sans-serif;
 }
@@ -80,6 +80,7 @@ article {
     padding: 10px;
     text-align: left;
     color: #fff;
+    font-weight: 600;
     opacity: 0.8;
     background-color: var(--accent2-color);
 }
@@ -87,7 +88,7 @@ article {
 .hero article img {
     float: right;
     width: 125px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(173, 68, 68, 0.5);
     border: 1px solid var(--accent2-color);
 }
 
