@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WhiteWater Rafting Service Site - Contact Us Page">
+    <meta name="author" content="Andrea Pérez">
+    <title>Contact Us - WhiteWater Rafting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=M+PLUS+Rounded+1c&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Company Logo">
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-info">
+            <img src="images/contact.webp" alt="Rafting Adventure">
+            <h1>Contact Us</h1>
+            <article>
+                <p>White Water Rafting</p>
+                <p>Phone: 123-456-7890</p>
+                <p>Email: whitewaterrafting@email.com<a href="mailto:"></a></p>
+                <p>Address: Nesquehoning, Pensilvania, EE. UU.</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3746.730734532766!2d-75.77957393939901!3d40.87107453846431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srafting!5e0!3m2!1ses-419!2sve!4v1754051495597!5m2!1ses-419!2sve"
+                        width="380" height="200" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+        </div>
+        <h2>Our Team</h2>
+        <section class="employees">
+            <figure>
+                <img src="images/employee1.webp" alt="Reginald Jimenez">
+                <figcaption>Reginald Jimenez<br>Safety Expert</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.webp" alt="Lucinda Sheldon">
+                <figcaption>Lucinda Sheldon<br>Schedule Coordinator</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.webp" alt="Terrance Grant">
+                <figcaption>Terrance Grant<br>Rafting Guide</figcaption>
+            </figure>
+        </section>
+        <form>
+            <h2>Send Us a Message</h2>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item1">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-item1">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Inquiry Type</legend>
+                <div class="form-item2">
+                    <input type="radio" id="inquiry1" name="inquiry" value="General Inquiry">General Inquiry
+                    <input type="radio" id="inquiry2" name="inquiry" value="Reservation Question">Reservation Question
+                    <input type="radio" id="inquiry3" name="inquiry" value="Website Suggestion">Website Suggestion
+                </div>
+                <textarea id="message" name="message" rows="4" placeholder="Type your message here..."></textarea>
+            </fieldset>
+            <fieldset>
+                <div class="form-item2">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer>
+        <nav class="socialmedia">
+            <p>© 2025 WhiteWater Rafting Company Andrea Pérez</p>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+            <a href="https://www.x.com/" target="_blank">
+                <img src="images/x.png" alt="X Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
