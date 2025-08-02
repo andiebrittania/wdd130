@@ -283,9 +283,12 @@ textarea {
     display: grid;
     align-items: center;
     text-align: left;
-    grid-gap: 0.5rem;
-    grid-template-columns: 1fr 10fr;
-    margin: 0.5rem 0;
+    grid-gap: 1rem;
+    margin: 0.5rem;
+}
+
+input[type="radio"] {
+    margin-right: 20px
 }
 
 textarea {
@@ -297,10 +300,15 @@ textarea {
     margin-bottom: 0.8rem;
 }
 
+.form-item3 {
+    padding: 0.8rem;
+}
+
 input[type="checkbox"] {
     width: auto;
     height: 1.3rem;
     vertical-align: bottom;
+    margin-right: 0.5rem;
 }
 
 .contact-info article {
@@ -318,11 +326,4 @@ input[type="checkbox"] {
 .map {
     width: 100%;
     padding: 10px
-}
-
-figure flow-content {
-    display: block;
-    text-align: center;
-    font-style: italic;
-    margin-top: 0rem;
 }
